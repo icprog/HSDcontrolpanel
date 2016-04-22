@@ -1,0 +1,350 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\STM\SelfKeil\uCOS286\uCOS.uvproj
+Project File Date:  05/24/2011
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling cpu_c.c...
+OS\cpu_c.c(49): error:  #5: cannot open source input file "cpu.h": No such file or directory
+compiling os_core.c...
+OS\os_core.c(26): error:  #5: cannot open source input file "ucos_ii.h": No such file or directory
+compiling os_cpu_c.c...
+OS\os_cpu_c.c(26): error:  #5: cannot open source input file "ucos_ii.h": No such file or directory
+compiling os_dbg.c...
+OS\os_dbg.c(25): error:  #5: cannot open source input file "ucos_ii.h": No such file or directory
+compiling os_flag.c...
+OS\os_flag.c(25): error:  #5: cannot open source input file "ucos_ii.h": No such file or directory
+compiling os_mbox.c...
+OS\os_mbox.c(25): error:  #5: cannot open source input file "ucos_ii.h": No such file or directory
+compiling os_mem.c...
+OS\os_mem.c(25): error:  #5: cannot open source input file "ucos_ii.h": No such file or directory
+compiling os_mutex.c...
+OS\os_mutex.c(25): error:  #5: cannot open source input file "ucos_ii.h": No such file or directory
+compiling os_q.c...
+OS\os_q.c(25): error:  #5: cannot open source input file "ucos_ii.h": No such file or directory
+compiling os_sem.c...
+OS\os_sem.c(25): error:  #5: cannot open source input file "ucos_ii.h": No such file or directory
+compiling os_task.c...
+OS\os_task.c(25): error:  #5: cannot open source input file "ucos_ii.h": No such file or directory
+compiling os_time.c...
+OS\os_time.c(25): error:  #5: cannot open source input file "ucos_ii.h": No such file or directory
+compiling os_tmr.c...
+OS\os_tmr.c(25): error:  #5: cannot open source input file "ucos_ii.h": No such file or directory
+assembling os_cpu_a.asm...
+assembling startup_stm32f10x_md_vl.s...
+compiling stm32f10x_it.c...
+d:\Keil\ARM\RV31\INC\core_cm3.h(942): error:  #20: identifier "IRQn_Type" is undefined
+d:\Keil\ARM\RV31\INC\core_cm3.h(955): error:  #20: identifier "IRQn_Type" is undefined
+d:\Keil\ARM\RV31\INC\core_cm3.h(970): error:  #20: identifier "IRQn_Type" is undefined
+d:\Keil\ARM\RV31\INC\core_cm3.h(983): error:  #20: identifier "IRQn_Type" is undefined
+d:\Keil\ARM\RV31\INC\core_cm3.h(996): error:  #20: identifier "IRQn_Type" is undefined
+d:\Keil\ARM\RV31\INC\core_cm3.h(1009): error:  #20: identifier "IRQn_Type" is undefined
+d:\Keil\ARM\RV31\INC\core_cm3.h(1026): error:  #20: identifier "IRQn_Type" is undefined
+d:\Keil\ARM\RV31\INC\core_cm3.h(1047): error:  #20: identifier "IRQn_Type" is undefined
+d:\Keil\ARM\RV31\INC\core_cm3.h(1156): error:  #20: identifier "SysTick_IRQn" is undefined
+APP\stm32f10x_it.c(25): error:  #5: cannot open source input file "ucos_ii.h": No such file or directory
+compiling main.c...
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling core_cm3.c...
+compiling misc.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_gpio.c...
+Target not created
+Clean started: Project: 'uCOS'
+   deleting intermediate output files for target 'Target 1'
+Build target 'Target 1'
+compiling cpu_c.c...
+OS\cpu_c.c(49): error:  #5: cannot open source input file "cpu.h": No such file or directory
+compiling os_core.c...
+OS\os_core.c(26): error:  #5: cannot open source input file "ucos_ii.h": No such file or directory
+compiling os_cpu_c.c...
+OS\os_cpu_c.c(26): error:  #5: cannot open source input file "ucos_ii.h": No such file or directory
+compiling os_dbg.c...
+OS\os_dbg.c(25): error:  #5: cannot open source input file "ucos_ii.h": No such file or directory
+compiling os_flag.c...
+OS\os_flag.c(25): error:  #5: cannot open source input file "ucos_ii.h": No such file or directory
+compiling os_mbox.c...
+OS\os_mbox.c(25): error:  #5: cannot open source input file "ucos_ii.h": No such file or directory
+compiling os_mem.c...
+OS\os_mem.c(25): error:  #5: cannot open source input file "ucos_ii.h": No such file or directory
+compiling os_mutex.c...
+OS\os_mutex.c(25): error:  #5: cannot open source input file "ucos_ii.h": No such file or directory
+compiling os_q.c...
+OS\os_q.c(25): error:  #5: cannot open source input file "ucos_ii.h": No such file or directory
+compiling os_sem.c...
+OS\os_sem.c(25): error:  #5: cannot open source input file "ucos_ii.h": No such file or directory
+compiling os_task.c...
+OS\os_task.c(25): error:  #5: cannot open source input file "ucos_ii.h": No such file or directory
+compiling os_time.c...
+OS\os_time.c(25): error:  #5: cannot open source input file "ucos_ii.h": No such file or directory
+compiling os_tmr.c...
+OS\os_tmr.c(25): error:  #5: cannot open source input file "ucos_ii.h": No such file or directory
+assembling os_cpu_a.asm...
+assembling startup_stm32f10x_md_vl.s...
+compiling stm32f10x_it.c...
+d:\Keil\ARM\RV31\INC\core_cm3.h(942): error:  #20: identifier "IRQn_Type" is undefined
+d:\Keil\ARM\RV31\INC\core_cm3.h(955): error:  #20: identifier "IRQn_Type" is undefined
+d:\Keil\ARM\RV31\INC\core_cm3.h(970): error:  #20: identifier "IRQn_Type" is undefined
+d:\Keil\ARM\RV31\INC\core_cm3.h(983): error:  #20: identifier "IRQn_Type" is undefined
+d:\Keil\ARM\RV31\INC\core_cm3.h(996): error:  #20: identifier "IRQn_Type" is undefined
+d:\Keil\ARM\RV31\INC\core_cm3.h(1009): error:  #20: identifier "IRQn_Type" is undefined
+d:\Keil\ARM\RV31\INC\core_cm3.h(1026): error:  #20: identifier "IRQn_Type" is undefined
+d:\Keil\ARM\RV31\INC\core_cm3.h(1047): error:  #20: identifier "IRQn_Type" is undefined
+d:\Keil\ARM\RV31\INC\core_cm3.h(1156): error:  #20: identifier "SysTick_IRQn" is undefined
+APP\stm32f10x_it.c(25): error:  #5: cannot open source input file "ucos_ii.h": No such file or directory
+compiling main.c...
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h(80): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+compiling core_cm3.c...
+compiling misc.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_gpio.c...
+Target not created
+Build target 'Target 1'
+compiling cpu_c.c...
+OS\cpu_c.c(50): error:  #5: cannot open source input file "lib_def.h": No such file or directory
+compiling os_core.c...
+compiling os_cpu_c.c...
+compiling os_dbg.c...
+compiling os_flag.c...
+compiling os_mbox.c...
+compiling os_mem.c...
+compiling os_mutex.c...
+compiling os_q.c...
+compiling os_sem.c...
+compiling os_task.c...
+compiling os_time.c...
+compiling os_tmr.c...
+compiling stm32f10x_it.c...
+.\Lib\core_cm3.h(264): warning:  #47-D: incompatible redefinition of macro "SCS_BASE" (declared at line 687 of "d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_map.h")
+.\Lib\core_cm3.h(272): warning:  #47-D: incompatible redefinition of macro "SCB" (declared at line 935 of "d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_map.h")
+.\Lib\core_cm3.h(273): warning:  #47-D: incompatible redefinition of macro "SysTick" (declared at line 930 of "d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_map.h")
+.\Lib\core_cm3.h(274): warning:  #47-D: incompatible redefinition of macro "NVIC" (declared at line 934 of "d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_map.h")
+.\Lib\core_cm3.h(1058): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1072): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1087): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1087): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1089): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1101): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1115): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1130): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1130): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1132): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1148): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1171): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1207): error:  #20: identifier "SysTick_IRQn" is undefined
+APP\stm32f10x_it.c(126): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(36): error:  #1268-D: declaration aliased to undefined entity "SysTickHandler"
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(35): error:  #1268-D: declaration aliased to undefined entity "PendSVC"
+APP\stm32f10x_it.c(107): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(34): error:  #1268-D: declaration aliased to undefined entity "SVCHandler"
+APP\stm32f10x_it.c(116): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(33): error:  #1268-D: declaration aliased to undefined entity "DebugMonitor"
+APP\stm32f10x_it.c(94): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(32): error:  #1268-D: declaration aliased to undefined entity "UsageFaultException"
+APP\stm32f10x_it.c(81): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(31): error:  #1268-D: declaration aliased to undefined entity "BusFaultException"
+APP\stm32f10x_it.c(68): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(30): error:  #1268-D: declaration aliased to undefined entity "MemManageException"
+APP\stm32f10x_it.c(55): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(29): error:  #1268-D: declaration aliased to undefined entity "HardFaultException"
+APP\stm32f10x_it.c(46): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(28): error:  #1268-D: declaration aliased to undefined entity "NMIException"
+compiling main.c...
+compiling core_cm3.c...
+compiling misc.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_gpio.c...
+Target not created
+Build target 'Target 1'
+compiling stm32f10x_it.c...
+.\Lib\core_cm3.h(264): warning:  #47-D: incompatible redefinition of macro "SCS_BASE" (declared at line 687 of "d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_map.h")
+.\Lib\core_cm3.h(272): warning:  #47-D: incompatible redefinition of macro "SCB" (declared at line 935 of "d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_map.h")
+.\Lib\core_cm3.h(273): warning:  #47-D: incompatible redefinition of macro "SysTick" (declared at line 930 of "d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_map.h")
+.\Lib\core_cm3.h(274): warning:  #47-D: incompatible redefinition of macro "NVIC" (declared at line 934 of "d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_map.h")
+.\Lib\core_cm3.h(1058): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1072): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1087): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1087): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1089): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1101): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1115): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1130): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1130): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1132): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1148): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1171): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1207): error:  #20: identifier "SysTick_IRQn" is undefined
+APP\stm32f10x_it.c(126): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(36): error:  #1268-D: declaration aliased to undefined entity "SysTickHandler"
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(35): error:  #1268-D: declaration aliased to undefined entity "PendSVC"
+APP\stm32f10x_it.c(107): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(34): error:  #1268-D: declaration aliased to undefined entity "SVCHandler"
+APP\stm32f10x_it.c(116): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(33): error:  #1268-D: declaration aliased to undefined entity "DebugMonitor"
+APP\stm32f10x_it.c(94): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(32): error:  #1268-D: declaration aliased to undefined entity "UsageFaultException"
+APP\stm32f10x_it.c(81): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(31): error:  #1268-D: declaration aliased to undefined entity "BusFaultException"
+APP\stm32f10x_it.c(68): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(30): error:  #1268-D: declaration aliased to undefined entity "MemManageException"
+APP\stm32f10x_it.c(55): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(29): error:  #1268-D: declaration aliased to undefined entity "HardFaultException"
+APP\stm32f10x_it.c(46): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(28): error:  #1268-D: declaration aliased to undefined entity "NMIException"
+Target not created
+Build target 'Target 1'
+compiling stm32f10x_it.c...
+.\Lib\core_cm3.h(264): warning:  #47-D: incompatible redefinition of macro "SCS_BASE" (declared at line 687 of "d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_map.h")
+.\Lib\core_cm3.h(272): warning:  #47-D: incompatible redefinition of macro "SCB" (declared at line 935 of "d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_map.h")
+.\Lib\core_cm3.h(273): warning:  #47-D: incompatible redefinition of macro "SysTick" (declared at line 930 of "d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_map.h")
+.\Lib\core_cm3.h(274): warning:  #47-D: incompatible redefinition of macro "NVIC" (declared at line 934 of "d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_map.h")
+.\Lib\core_cm3.h(1058): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1072): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1087): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1087): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1089): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1101): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1115): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1130): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1130): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1132): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1148): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1171): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1207): error:  #20: identifier "SysTick_IRQn" is undefined
+APP\stm32f10x_it.c(126): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(36): error:  #1268-D: declaration aliased to undefined entity "SysTickHandler"
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(35): error:  #1268-D: declaration aliased to undefined entity "PendSVC"
+APP\stm32f10x_it.c(107): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(34): error:  #1268-D: declaration aliased to undefined entity "SVCHandler"
+APP\stm32f10x_it.c(116): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(33): error:  #1268-D: declaration aliased to undefined entity "DebugMonitor"
+APP\stm32f10x_it.c(94): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(32): error:  #1268-D: declaration aliased to undefined entity "UsageFaultException"
+APP\stm32f10x_it.c(81): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(31): error:  #1268-D: declaration aliased to undefined entity "BusFaultException"
+APP\stm32f10x_it.c(68): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(30): error:  #1268-D: declaration aliased to undefined entity "MemManageException"
+APP\stm32f10x_it.c(55): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(29): error:  #1268-D: declaration aliased to undefined entity "HardFaultException"
+APP\stm32f10x_it.c(46): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(28): error:  #1268-D: declaration aliased to undefined entity "NMIException"
+compiling system_stm32f10x.c...
+Target not created
+Clean started: Project: 'uCOS'
+   deleting intermediate output files for target 'Target 1'
+Build target 'Target 1'
+compiling os_core.c...
+compiling os_cpu_c.c...
+compiling os_dbg.c...
+compiling os_flag.c...
+compiling os_mbox.c...
+compiling os_mem.c...
+compiling os_mutex.c...
+compiling os_q.c...
+compiling os_sem.c...
+compiling os_task.c...
+compiling os_time.c...
+compiling os_tmr.c...
+assembling os_cpu_a.asm...
+assembling startup_stm32f10x_md_vl.s...
+compiling stm32f10x_it.c...
+.\Lib\core_cm3.h(264): warning:  #47-D: incompatible redefinition of macro "SCS_BASE" (declared at line 687 of "d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_map.h")
+.\Lib\core_cm3.h(272): warning:  #47-D: incompatible redefinition of macro "SCB" (declared at line 935 of "d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_map.h")
+.\Lib\core_cm3.h(273): warning:  #47-D: incompatible redefinition of macro "SysTick" (declared at line 930 of "d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_map.h")
+.\Lib\core_cm3.h(274): warning:  #47-D: incompatible redefinition of macro "NVIC" (declared at line 934 of "d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_map.h")
+.\Lib\core_cm3.h(1058): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1072): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1087): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1087): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1089): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1101): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1115): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1130): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1130): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1132): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1148): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1171): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1207): error:  #20: identifier "SysTick_IRQn" is undefined
+APP\stm32f10x_it.c(126): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(36): error:  #1268-D: declaration aliased to undefined entity "SysTickHandler"
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(35): error:  #1268-D: declaration aliased to undefined entity "PendSVC"
+APP\stm32f10x_it.c(107): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(34): error:  #1268-D: declaration aliased to undefined entity "SVCHandler"
+APP\stm32f10x_it.c(116): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(33): error:  #1268-D: declaration aliased to undefined entity "DebugMonitor"
+APP\stm32f10x_it.c(94): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(32): error:  #1268-D: declaration aliased to undefined entity "UsageFaultException"
+APP\stm32f10x_it.c(81): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(31): error:  #1268-D: declaration aliased to undefined entity "BusFaultException"
+APP\stm32f10x_it.c(68): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(30): error:  #1268-D: declaration aliased to undefined entity "MemManageException"
+APP\stm32f10x_it.c(55): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(29): error:  #1268-D: declaration aliased to undefined entity "HardFaultException"
+APP\stm32f10x_it.c(46): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(28): error:  #1268-D: declaration aliased to undefined entity "NMIException"
+compiling main.c...
+compiling core_cm3.c...
+compiling misc.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_gpio.c...
+compiling system_stm32f10x.c...
+Target not created
+Build target 'Target 1'
+compiling os_core.c...
+compiling os_cpu_c.c...
+compiling os_dbg.c...
+compiling os_flag.c...
+compiling os_mbox.c...
+compiling os_mem.c...
+compiling os_mutex.c...
+compiling os_q.c...
+compiling os_sem.c...
+compiling os_task.c...
+compiling os_time.c...
+compiling os_tmr.c...
+compiling stm32f10x_it.c...
+.\Lib\core_cm3.h(264): warning:  #47-D: incompatible redefinition of macro "SCS_BASE" (declared at line 687 of "d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_map.h")
+.\Lib\core_cm3.h(272): warning:  #47-D: incompatible redefinition of macro "SCB" (declared at line 935 of "d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_map.h")
+.\Lib\core_cm3.h(273): warning:  #47-D: incompatible redefinition of macro "SysTick" (declared at line 930 of "d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_map.h")
+.\Lib\core_cm3.h(274): warning:  #47-D: incompatible redefinition of macro "NVIC" (declared at line 934 of "d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_map.h")
+.\Lib\core_cm3.h(1058): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1072): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1087): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1087): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1089): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1101): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1115): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1130): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1130): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1132): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1148): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1171): error:  #20: identifier "IRQn_Type" is undefined
+.\Lib\core_cm3.h(1207): error:  #20: identifier "SysTick_IRQn" is undefined
+APP\stm32f10x_it.c(126): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(36): error:  #1268-D: declaration aliased to undefined entity "SysTickHandler"
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(35): error:  #1268-D: declaration aliased to undefined entity "PendSVC"
+APP\stm32f10x_it.c(107): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(34): error:  #1268-D: declaration aliased to undefined entity "SVCHandler"
+APP\stm32f10x_it.c(116): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(33): error:  #1268-D: declaration aliased to undefined entity "DebugMonitor"
+APP\stm32f10x_it.c(94): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(32): error:  #1268-D: declaration aliased to undefined entity "UsageFaultException"
+APP\stm32f10x_it.c(81): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(31): error:  #1268-D: declaration aliased to undefined entity "BusFaultException"
+APP\stm32f10x_it.c(68): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(30): error:  #1268-D: declaration aliased to undefined entity "MemManageException"
+APP\stm32f10x_it.c(55): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(29): error:  #1268-D: declaration aliased to undefined entity "HardFaultException"
+APP\stm32f10x_it.c(46): error:  #1270: entity declared as alias cannot have definition
+d:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_it.h(28): error:  #1268-D: declaration aliased to undefined entity "NMIException"
+compiling main.c...
+compiling core_cm3.c...
+compiling misc.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_gpio.c...
+compiling system_stm32f10x.c...
+Target not created
